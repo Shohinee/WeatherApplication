@@ -1,0 +1,67 @@
+/** @format */
+* {
+	box-sizing: border-box;
+}
+.Cparent {
+	width: "100%";
+	height: "200px";
+	background-color: "cyan";
+	display: "flex";
+	justify-content: "space-around";
+}
+.seeDiffWeather {
+	display: flex;
+	width: 100%;
+	height: 44px;
+
+	justify-content: space-evenly;
+}
+
+.seediff span {
+	margin-top: 0;
+	margin-bottom: 0;
+	height: 43px;
+
+	font-size: smaller;
+	font-weight: bold;
+	color: whitesmoke;
+}
+.p {
+	margin-top: 0;
+	margin-bottom: 0;
+	height: 43px;
+
+	font-size: smaller;
+	font-weight: bold;
+	color: whitesmoke;
+}
+.weatherDesc {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: smaller;
+	color: whitesmoke;
+}
+span .time {
+	font-size: smaller;
+	font-weight: bold;
+	color: whitesmoke;
+}
+li {
+	font-size: smaller;
+	list-style-type: none;
+	display: inline-block;
+
+	color: whitesmoke;
+}
+.air {
+	font-weight: light;
+}
+.air p {
+	font-weight: bold;
+	color: whitesmoke;
+}
+.temparature .air {
+	margin: 0;
+	color: aliceblue;
+	font-size: 20px;
+}
